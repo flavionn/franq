@@ -1,0 +1,1 @@
+import{u as t,o,c as s,a as c}from"./index.7b40e1bb.js";import{b as e}from"./route-block.7fdbc26a.js";const a=c("div",{class:"text-2xl font-semibold"},"Secret",-1),r=[a],n={name:"secret",setup(i){return t({title:"Secret"}),(l,_)=>(o(),s("div",null,r))}};typeof e=="function"&&e(n);export{n as default};
