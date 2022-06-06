@@ -519,24 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/composables/auth.js",
-			"settings":
-			{
-				"buffer_size": 1471,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/constants/firebaseErrors.js",
-			"settings":
-			{
-				"buffer_size": 139,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -902,31 +884,30 @@
 	},
 	"expanded_folders":
 	[
-		"/home/flavionn/Documentos/www/estudo/2022-franq",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/constants"
+		"/home/flavionn/Documentos/www/estudo/2022-franq"
 	],
 	"file_history":
 	[
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/layouts/margin.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/PageCenter.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/.gitignore",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/FormSignup.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/FormSignin.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/index.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/README.md",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/composables/auth.js",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/constants/firebaseErrors.js",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/layouts/margin.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/PageCenter.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/index.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/signin.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/index.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ListOfButtonsToLoadIndexes.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/signup.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/WelcomeScreen.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ButtonLoadIndexes.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/PageTitle.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/layouts/default.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/README.md",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/.gitignore",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/composables/finance.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/api/finance.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/store/auth.js",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/composables/auth.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/IndexesList.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/taxes.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/TaxCard.vue",
@@ -1034,8 +1015,7 @@
 		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/components/EmptyPaymentMethod.vue",
 		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/components/ModalTitle.vue",
 		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/api/order.js",
-		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/utils/getFormatNumber.js",
-		"/home/flavionn/Documentos/www/bitzen/pharma-stock-admin/src/components/ModalTitle.vue"
+		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/utils/getFormatNumber.js"
 	],
 	"find":
 	{
@@ -1199,89 +1179,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/composables/auth.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1471,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								479,
-								479
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": false,
-							"trim_trailing_white_space_on_save": true,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 3,
-								"tabSize": 3
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "src/constants/firebaseErrors.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 139,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27,
-								27
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": false,
-							"trim_trailing_white_space_on_save": true,
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1345,6 +1249,22 @@
 		"selected_items":
 		[
 			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"form",
+				"src/components/FormSignup.vue"
+			],
+			[
+				"index",
+				"src/pages/index.vue"
+			],
+			[
+				"readm",
+				"README.md"
+			],
+			[
 				"auth",
 				"src/composables/auth.js"
 			],
@@ -1359,10 +1279,6 @@
 			[
 				"formsi",
 				"src/components/FormSignup.vue"
-			],
-			[
-				"form",
-				"src/components/FormSignin.vue"
 			],
 			[
 				"acco",
@@ -1397,16 +1313,8 @@
 				"src/components/WelcomeScreen.vue"
 			],
 			[
-				"index",
-				"src/pages/index.vue"
-			],
-			[
 				"read",
 				"README.md"
-			],
-			[
-				"giti",
-				".gitignore"
 			],
 			[
 				"igno",
@@ -1851,10 +1759,6 @@
 			[
 				"FormPro",
 				"src/components/FormProduct.vue"
-			],
-			[
-				"Form",
-				"src/components/FormStore.vue"
 			]
 		],
 		"width": 0.0
