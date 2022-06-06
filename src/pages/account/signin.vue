@@ -10,17 +10,18 @@ useHead({
 
 <template lang="pug">
 
-ButtonBack
+PageCenter
+	ButtonBack
 
-PageTitle Bem vindo de volta
+	PageTitle Bem vindo de volta
 
-div(class="space-y-4 text-center")
-	FormSignin
+	div(class="space-y-4 text-center")
+		FormSignin
 
-	router-link(
-		:to="{ name: 'account-signup' }"
-		class="block text-green-600"
-		) não tem cadastro?
+		router-link(
+			:to="{ name: 'account-signup' }"
+			class="block text-green-600"
+			) não tem cadastro?
 
 </template>
 

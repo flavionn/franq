@@ -24,6 +24,7 @@ form(@submit.prevent="onClickSignin")
 		v-model="form.password"
 		type="password"
 		placeholder="Password"
+		minlength="6"
 		required
 		)
 

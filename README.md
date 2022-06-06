@@ -35,6 +35,7 @@ pnpm dev
 
 ### Autenticação e persistência
 Para cadastro de usuários e autenticação utilizei o Firebase 9. Utilizei um método do Firebase chamado onAuthStateChanged para persistência de dados.
+
 Criei um composable chamado [auth.js](./src/composables/auth.js) com alguns métodos relacionados a autenticação do usuário.
 
 #### Layouts e páginas
@@ -45,11 +46,13 @@ Quando o usuário faz a autenticação, alguns dados do seu cadastro vindos do F
 
 #### Comunicação com a API
 A comunicação com a API esta sendo realizada utilizando o Axios. Até o momento utilizei as rotas "quotation" e "taxes" da HG Finance.
+
 Criei um composable chamado [finance.js](./src/composables/finance.js) com alguns métodos que chamam o carregamento de dados específicos da API.
 
 #### Navegação & Visual
-A página inicial conta com uma imagem hero conceitual que busquei de um outro projeto criado por uma outra empresa [Collins](wearecollins.com)
-Os ícones utilizados estão disponíveis em [Icones](https://icones.js.org/)
+A página inicial conta com uma imagem hero conceitual que busquei de um outro projeto criado por uma outra empresa [Collins](wearecollins.com).
+
+Os ícones utilizados estão disponíveis em [Icones](https://icones.js.org/).
 
 #### TTD
 - [ ] Versão desktop
