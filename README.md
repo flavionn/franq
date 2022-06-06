@@ -53,8 +53,3 @@ Criei um composable chamado [finance.js](./src/composables/finance.js) com algun
 A página inicial conta com uma imagem hero conceitual que busquei de um outro projeto criado por uma outra empresa [Collins](wearecollins.com).
 
 Os ícones utilizados estão disponíveis em [Icones](https://icones.js.org/).
-
-#### TTD
-- [ ] Versão desktop
-- [ ] Salvar dados obtidos da API em um estado e consumi-los na aplicação
-- [ ] Atualizar estes dados após um período de tempo

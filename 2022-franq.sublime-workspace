@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"center",
+				"justify-center \tWindi CSS Class"
+			],
+			[
 				"justif",
-				"justify-between \tWindi CSS Class"
+				"justify-center \tWindi CSS Class"
+			],
+			[
+				"bg-gree",
+				"bg-green-300 \tWindi CSS Class"
+			],
+			[
+				"justf",
+				"justify-center \tWindi CSS Class"
 			],
 			[
 				"transit",
 				"transition-colors \tWindi CSS Class"
-			],
-			[
-				"center",
-				"items-center \tWindi CSS Class"
 			],
 			[
 				"grid-cols",
@@ -506,17 +514,30 @@
 			[
 				"loca",
 				"localUploadData"
-			],
-			[
-				"server",
-				"serverDocumentType"
-			],
-			[
-				"new",
-				"newObject"
 			]
 		]
 	},
+	"buffers":
+	[
+		{
+			"file": "src/composables/auth.js",
+			"settings":
+			{
+				"buffer_size": 1471,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/constants/firebaseErrors.js",
+			"settings":
+			{
+				"buffer_size": 139,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -530,6 +551,10 @@
 		[
 			[
 				"refres",
+				"Project: Refresh Folders"
+			],
+			[
+				"refre",
 				"Project: Refresh Folders"
 			],
 			[
@@ -582,10 +607,6 @@
 			],
 			[
 				"REFRES",
-				"Project: Refresh Folders"
-			],
-			[
-				"refre",
 				"Project: Refresh Folders"
 			],
 			[
@@ -879,9 +900,29 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/flavionn/Documentos/www/estudo/2022-franq",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/constants"
+	],
 	"file_history":
 	[
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/layouts/margin.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/PageCenter.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/FormSignup.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/FormSignin.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/index.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/signin.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/index.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ListOfButtonsToLoadIndexes.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/signup.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/WelcomeScreen.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ButtonLoadIndexes.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/PageTitle.vue",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/layouts/default.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/README.md",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/.gitignore",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/composables/finance.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/api/finance.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/store/auth.js",
@@ -894,34 +935,22 @@
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/IndexCard.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/currency.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/stocks.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/index.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/LoadingScreen.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/LoadingComponent.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/.env",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/WelcomeScreen.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ButtonLoadIndexes.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/layouts/margin.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ListOfButtonsToLoadIndexes.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ButtonForm.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/styles/global.sass",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/HomeScreen.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/Menu.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/index.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/layouts/default.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/App.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/signup.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/store/user.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/main.js",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/signin.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ButtonBack.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/PageTitle.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ListIndexes.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/Output.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/Spinner.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/FormSignin.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/composables/notification.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/package.json",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/FormSignup.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/index.html",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/vite.config.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/secret.vue",
@@ -1006,9 +1035,7 @@
 		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/components/ModalTitle.vue",
 		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/api/order.js",
 		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/utils/getFormatNumber.js",
-		"/home/flavionn/Documentos/www/bitzen/pharma-stock-admin/src/components/ModalTitle.vue",
-		"/home/flavionn/Documentos/www/bitzen/pharma-stock-admin/src/components/ModalContainer.vue",
-		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/assets/styles/oruga-table.sass"
+		"/home/flavionn/Documentos/www/bitzen/pharma-stock-admin/src/components/ModalTitle.vue"
 	],
 	"find":
 	{
@@ -1027,6 +1054,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"firebaseErrors",
+			"layout: margin",
+			"lg",
+			"xl",
 			"@apply ",
 			"@apply",
 			"selic_daily",
@@ -1150,11 +1181,7 @@
 			"defineProps",
 			"defineEmi",
 			"onOpenModal",
-			"onClickToGetMoreInfo",
-			"hasPaymentMethodAlertModalOpen",
-			"axios",
-			"IconChevronDown",
-			"IconAlert"
+			"onClickToGetMoreInfo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1169,6 +1196,95 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/composables/auth.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								479,
+								479
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 3,
+								"tabSize": 3
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "src/constants/firebaseErrors.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
 	"incremental_find":
 	{
 		"height": 33.0
@@ -1216,6 +1332,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
+	"project": "2022-franq.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -1228,6 +1345,74 @@
 		"selected_items":
 		[
 			[
+				"auth",
+				"src/composables/auth.js"
+			],
+			[
+				"mar",
+				"src/layouts/margin.vue"
+			],
+			[
+				"pac",
+				"src/components/PageCenter.vue"
+			],
+			[
+				"formsi",
+				"src/components/FormSignup.vue"
+			],
+			[
+				"form",
+				"src/components/FormSignin.vue"
+			],
+			[
+				"acco",
+				"src/pages/account/index.vue"
+			],
+			[
+				"forms",
+				"src/components/FormSignup.vue"
+			],
+			[
+				"sign",
+				"src/pages/account/signup.vue"
+			],
+			[
+				"ButtonLoadIndexes",
+				"src/components/ButtonLoadIndexes.vue"
+			],
+			[
+				"ListOfButtonsToLoadIndexes",
+				"src/components/ListOfButtonsToLoadIndexes.vue"
+			],
+			[
+				"PageTitle",
+				"src/components/PageTitle.vue"
+			],
+			[
+				"defa",
+				"src/layouts/default.vue"
+			],
+			[
+				"WelcomeScreen",
+				"src/components/WelcomeScreen.vue"
+			],
+			[
+				"index",
+				"src/pages/index.vue"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"igno",
+				".gitignore"
+			],
+			[
 				"finan",
 				"src/composables/finance.js"
 			],
@@ -1238,10 +1423,6 @@
 			[
 				"aut",
 				"src/store/auth.js"
-			],
-			[
-				"auth",
-				"src/composables/auth.js"
 			],
 			[
 				"indexL",
@@ -1304,10 +1485,6 @@
 				".env"
 			],
 			[
-				"WelcomeScreen",
-				"src/components/WelcomeScreen.vue"
-			],
-			[
 				"hom",
 				"src/components/HomeScreen.vue"
 			],
@@ -1324,24 +1501,12 @@
 				"src/components/Menu.vue"
 			],
 			[
-				"ButtonLoadIndexes",
-				"src/components/ButtonLoadIndexes.vue"
-			],
-			[
-				"defa",
-				"src/layouts/default.vue"
-			],
-			[
 				"accou",
 				"src/pages/account/index.vue"
 			],
 			[
 				"app",
 				"src/App.vue"
-			],
-			[
-				"index",
-				"src/pages/index.vue"
 			],
 			[
 				"IndexCard",
@@ -1368,14 +1533,6 @@
 				"src/components/LoadingScreen.vue"
 			],
 			[
-				"sign",
-				"src/pages/account/signup.vue"
-			],
-			[
-				"acco",
-				"src/pages/account/index.vue"
-			],
-			[
 				"store",
 				"src/store/user.js"
 			],
@@ -1386,10 +1543,6 @@
 			[
 				"Loadin",
 				"src/components/LoadingScreen.vue"
-			],
-			[
-				"mar",
-				"src/layouts/margin.vue"
 			],
 			[
 				"App",
@@ -1440,10 +1593,6 @@
 				"package.json"
 			],
 			[
-				"form",
-				"src/components/FormSignin.vue"
-			],
-			[
 				"main",
 				"src/main.js"
 			],
@@ -1486,10 +1635,6 @@
 			[
 				"user",
 				"src/store/user.js"
-			],
-			[
-				"formsi",
-				"src/components/FormSignin.vue"
 			],
 			[
 				"signi",
@@ -1710,34 +1855,6 @@
 			[
 				"Form",
 				"src/components/FormStore.vue"
-			],
-			[
-				"uploadbo",
-				"src/components/UploadBox.vue"
-			],
-			[
-				"FormProduc",
-				"src/components/FormProduct.vue"
-			],
-			[
-				"FormSto",
-				"src/components/FormStore.vue"
-			],
-			[
-				"Upload",
-				"src/components/UploadBox.vue"
-			],
-			[
-				"FeaturedList",
-				"src/components/FeaturedList.vue"
-			],
-			[
-				"FormProd",
-				"src/components/FormProduct.vue"
-			],
-			[
-				"UploadBo",
-				"src/components/UploadBox.vue"
 			]
 		],
 		"width": 0.0
@@ -1745,9 +1862,13 @@
 	"select_project":
 	{
 		"height": 566.0,
-		"last_filter": "mana",
+		"last_filter": "ma",
 		"selected_items":
 		[
+			[
+				"ma",
+				"~/Documentos/www/bitzen/pharma-stock-manager/pharma-stock-manager.sublime-project"
+			],
 			[
 				"mana",
 				"~/Documentos/www/bitzen/pharma-stock-manager/pharma-stock-manager.sublime-project"
@@ -1824,6 +1945,7 @@
 		],
 		"width": 574.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},

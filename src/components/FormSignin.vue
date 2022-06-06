@@ -23,7 +23,7 @@ form(@submit.prevent="onClickSignin")
 	input(
 		v-model="form.password"
 		type="password"
-		placeholder="Password"
+		placeholder="Senha"
 		minlength="6"
 		required
 		)

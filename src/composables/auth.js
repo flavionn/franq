@@ -1,3 +1,4 @@
+import { firebaseErrors } from '@/constants/firebaseErrors'
 import useNotification from '@/composables/notification'
 import { ref, reactive } from 'vue'
 import { useRouter } from 'vue-router'
@@ -25,7 +26,7 @@ export default function useAuth() {
 			isProcessing.value = false
 		})
 		.catch((error) => {
-			notification(error.message, 'error')
+			notification(firebaseErrors[error.code], 'error')
 			isProcessing.value = false
 		})
 	}
@@ -40,7 +41,7 @@ export default function useAuth() {
 			isProcessing.value = false
 		})
 		.catch((error) => {
-			notification(error.message, 'error')
+			notification(firebaseErrors[error.code], 'error')
 			isProcessing.value = false
 		})
 	}

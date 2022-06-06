@@ -15,7 +15,7 @@ const {
 form(@submit.prevent="onClickSignup")
 	input(
 		v-model="form.email"
-		type="text"
+		type="email"
 		placeholder="E-mail"
 		required
 		)
@@ -23,7 +23,7 @@ form(@submit.prevent="onClickSignup")
 	input(
 		v-model="form.password"
 		type="password"
-		placeholder="Password"
+		placeholder="Senha"
 		minlength="6"
 		required
 		)

@@ -17,7 +17,7 @@ useHead({
 
 div(
 	v-if="isAuthenticated"
-	class="p-16 space-y-8"
+	class="p-8 space-y-8"
 	)
 	PageTitle Olá
 	div Escolha uma das opções abaixo.
