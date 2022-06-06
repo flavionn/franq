@@ -881,6 +881,11 @@
 	},
 	"file_history":
 	[
+		"/home/flavionn/Documentos/www/estudo/2022-franq/README.md",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/composables/finance.js",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/api/finance.js",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/store/auth.js",
+		"/home/flavionn/Documentos/www/estudo/2022-franq/src/composables/auth.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/IndexesList.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/taxes.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/TaxCard.vue",
@@ -892,10 +897,8 @@
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/index.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/LoadingScreen.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/LoadingComponent.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/composables/finance.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/.env",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/WelcomeScreen.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/api/finance.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ButtonLoadIndexes.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/layouts/margin.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ListOfButtonsToLoadIndexes.vue",
@@ -906,10 +909,8 @@
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/index.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/layouts/default.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/App.vue",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/composables/auth.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/signup.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/store/user.js",
-		"/home/flavionn/Documentos/www/estudo/2022-franq/src/store/auth.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/main.js",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/pages/account/signin.vue",
 		"/home/flavionn/Documentos/www/estudo/2022-franq/src/components/ButtonBack.vue",
@@ -1007,8 +1008,7 @@
 		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/utils/getFormatNumber.js",
 		"/home/flavionn/Documentos/www/bitzen/pharma-stock-admin/src/components/ModalTitle.vue",
 		"/home/flavionn/Documentos/www/bitzen/pharma-stock-admin/src/components/ModalContainer.vue",
-		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/assets/styles/oruga-table.sass",
-		"/home/flavionn/Documentos/www/bitzen/pharma-stock-admin/src/components/FeaturedList.vue"
+		"/home/flavionn/Documentos/www/bitzen/pharma-stock-manager/src/assets/styles/oruga-table.sass"
 	],
 	"find":
 	{
@@ -1228,6 +1228,22 @@
 		"selected_items":
 		[
 			[
+				"finan",
+				"src/composables/finance.js"
+			],
+			[
+				"api",
+				"src/api/finance.js"
+			],
+			[
+				"aut",
+				"src/store/auth.js"
+			],
+			[
+				"auth",
+				"src/composables/auth.js"
+			],
+			[
 				"indexL",
 				"src/components/IndexesList.vue"
 			],
@@ -1328,14 +1344,6 @@
 				"src/pages/index.vue"
 			],
 			[
-				"auth",
-				"src/composables/auth.js"
-			],
-			[
-				"finan",
-				"src/composables/finance.js"
-			],
-			[
 				"IndexCard",
 				"src/components/IndexCard.vue"
 			],
@@ -1414,10 +1422,6 @@
 			[
 				"Finan",
 				"src/components/Finance.vue"
-			],
-			[
-				"api",
-				"src/api/finance.js"
 			],
 			[
 				"Spinner",
@@ -1734,10 +1738,6 @@
 			[
 				"UploadBo",
 				"src/components/UploadBox.vue"
-			],
-			[
-				"financia",
-				"src/composables/financial.js"
 			]
 		],
 		"width": 0.0
