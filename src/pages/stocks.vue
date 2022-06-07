@@ -1,16 +1,11 @@
 <script setup>
 
-import useFinance from '@/composables/finance'
-import { onMounted } from 'vue'
+import { computed } from 'vue'
 import { useHead } from '@vueuse/head'
+import { useStore } from 'vuex'
 
-const {
-	onLoadQuotations,
-	data,
-	isProcessing,
-} = useFinance()
-
-onMounted(() => onLoadQuotations())
+const store = useStore()
+const stocks = computed(() => store.getters['content/getLatestStocks'])
 
 useHead({
 	title: 'Página com lista de índices de bolsas de valores pelo mundo',
@@ -24,12 +19,7 @@ ButtonBack
 
 PageTitle Bolsas
 
-LoadingScreen(v-if="isProcessing")
-
-IndexesList(
-	v-else=""
-	:items="data.stocks"
-	)
+IndexesList(:items="stocks")
 
 </template>
 

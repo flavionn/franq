@@ -1,11 +1,11 @@
 import useNotification from '@/composables/notification'
-import { getQuotations, getTaxes } from '@/api/finance'
+import { getLatestIndexes, getQuotations, getTaxes } from '@/api/finance'
 import { reactive, ref } from 'vue'
 
 export default function useFinance() {
 	const { notification } = useNotification()
 
-	const isProcessing = ref(false)
+	// const isProcessing = ref(false)
 
 	const data = reactive({
 		currencies: '',
@@ -13,45 +13,62 @@ export default function useFinance() {
 		taxes: '',
 	})
 
-	const onLoadQuotations = async () => {
-		isProcessing.value = true
-
-		await getQuotations()
+	const onLoadLatestIndexes = async () => {
+		await getLatestIndexes()
 		.then((response) => {
-			const { currencies, stocks } = response.data.results
+			const { currencies, stocks, taxes } = response.data.results
 
 			data.currencies = currencies
 			data.stocks = stocks
+			data.taxes = taxes
 
 			delete data.currencies.source
 		})
 		.catch((e) => {
 			notification(e, 'error')
 		})
-
-		isProcessing.value = false
 	}
 
-	const onLoadTaxes = async () => {
-		isProcessing.value = true
+	// const onLoadQuotations = async () => {
+	// 	isProcessing.value = true
 
-		await getTaxes()
-		.then((response) => {
-			const { results } = response.data
+	// 	await getQuotations()
+	// 	.then((response) => {
+	// 		const { currencies, stocks } = response.data.results
 
-			data.taxes = results
-		})
-		.catch((e) => {
-			notification(e, 'error')
-		})
+	// 		data.currencies = currencies
+	// 		data.stocks = stocks
 
-		isProcessing.value = false
-	}
+	// 		delete data.currencies.source
+	// 	})
+	// 	.catch((e) => {
+	// 		notification(e, 'error')
+	// 	})
+
+	// 	isProcessing.value = false
+	// }
+
+	// const onLoadTaxes = async () => {
+	// 	isProcessing.value = true
+
+	// 	await getTaxes()
+	// 	.then((response) => {
+	// 		const { results } = response.data
+
+	// 		data.taxes = results
+	// 	})
+	// 	.catch((e) => {
+	// 		notification(e, 'error')
+	// 	})
+
+	// 	isProcessing.value = false
+	// }
 
 	return {
-		isProcessing,
-		onLoadQuotations,
-		onLoadTaxes,
+		onLoadLatestIndexes,
+		// isProcessing,
+		// onLoadQuotations,
+		// onLoadTaxes,
 		data,
 	}
 }

@@ -1,16 +1,11 @@
 <script setup>
 
-import useFinance from '@/composables/finance'
-import { onMounted } from 'vue'
+import { computed } from 'vue'
 import { useHead } from '@vueuse/head'
+import { useStore } from 'vuex'
 
-const {
-	onLoadQuotations,
-	data,
-	isProcessing,
-} = useFinance()
-
-onMounted(() => onLoadQuotations())
+const store = useStore()
+const currencies = computed(() => store.getters['content/getLatestCurrencies'])
 
 useHead({
 	title: 'Página com lista de cotações de moedas',
@@ -24,12 +19,7 @@ ButtonBack
 
 PageTitle Moedas
 
-LoadingScreen(v-if="isProcessing")
-
-IndexesList(
-	v-else=""
-	:items="data.currencies"
-	)
+IndexesList(:items="currencies")
 
 </template>
 

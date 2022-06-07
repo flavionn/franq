@@ -10,7 +10,6 @@ import App from './App.vue'
 
 import store from './store'
 import router from './router'
-import { api } from './api'
 
 await store.dispatch('auth/currentUser')
 

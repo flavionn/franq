@@ -1,16 +1,11 @@
 <script setup>
 
-import useFinance from '@/composables/finance'
-import { onMounted } from 'vue'
+import { computed } from 'vue'
 import { useHead } from '@vueuse/head'
+import { useStore } from 'vuex'
 
-const {
-	onLoadTaxes,
-	data,
-	isProcessing,
-} = useFinance()
-
-onMounted(() => onLoadTaxes())
+const store = useStore()
+const taxes = computed(() => store.getters['content/getLatestTaxes'])
 
 useHead({
 	title: 'Página com lista de taxas de juros no Brasil',
@@ -24,12 +19,7 @@ ButtonBack
 
 PageTitle Taxas
 
-LoadingScreen(v-if="isProcessing")
-
-TaxesList(
-	v-else=""
-	:items="data.taxes"
-	)
+TaxesList(:items="taxes")
 
 </template>
 
